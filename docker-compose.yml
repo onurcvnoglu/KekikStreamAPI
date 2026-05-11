@@ -18,3 +18,9 @@ services:
       LC_ALL: "tr_TR.UTF-8"
       LANGUAGE: "tr_TR:tr"
       TZ: "Europe/Istanbul"
+    networks:
+      - coolify
+
+networks:
+  coolify:
+    external: true
